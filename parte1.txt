@@ -1,0 +1,45 @@
+//variables
+unsigned char dato = 97;
+//----------------------interrupciones------------------------------------------
+void __interrupt() isr(void){    // only process timer-triggered interrupts
+    //interrupcion de recepcion
+    if (PIR1bits.RCIF) {
+        PORTB = RCREG;
+    }   
+}
+
+void main(void) {
+    //configuraciones
+    //configuracion reloj
+    OSCCONbits.IRCF = 0b100;//100, Frecuencia de reloj 1 MHz
+    OSCCONbits.SCS   = 1;//reloj interno
+    //configuracion in out
+    ANSELH = 0; //Pines digitales
+    ANSEL = 0;
+    TRISA  = 0; //RA0 y RA1 como inputs y los demas como outputs
+    TRISB = 0;
+    PORTA = 0;//se limpian los puertos
+    PORTB = 0;
+    //configuracion de TX y RX
+    TXSTAbits.SYNC = 0;    //asincrono
+    TXSTAbits.BRGH = 1;    //highspeed
+    BAUDCTLbits.BRG16 = 1; //16 bits baud rate
+    SPBRG = 25;            
+    SPBRGH = 0;            
+    RCSTAbits.SPEN = 1;    //modulo USART encendido
+    RCSTAbits.RX9 = 0;     //no 9 bits
+    RCSTAbits.CREN = 1;    //recepcion
+    TXSTAbits.TXEN = 1;    //transmision
+    //configuracion interrupciones
+    PIR1bits.RCIF = 0;    //bandera recepcion apagada
+    PIE1bits.RCIE = 1;    //enable bandera recepcion
+    
+    PIR1bits.ADIF = 0;
+    PIE1bits.ADIE = 1;   //se habilitan las interrupciones por adc
+    INTCONbits.PEIE = 1; //se habilitan las interrupciones de los perifericos
+    INTCONbits.GIE  = 1; //se habilitan las interrupciones globales
+    while (1){
+    __delay_ms(500);
+    if (PIR1bits.TXIF)
+    {TXREG = dato;}}      
+}
