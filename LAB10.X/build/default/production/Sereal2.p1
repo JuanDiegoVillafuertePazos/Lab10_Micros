@@ -1,0 +1,3032 @@
+Version 4.0 HI-TECH Software Intermediate Code
+[v F1437 `(v ~T0 @X0 1 tf1`ul ]
+"92 C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\pic.h
+[v __delay `JF1437 ~T0 @X0 0 e ]
+[p i __delay ]
+"543 C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 543:     struct {
+[s S24 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S24 . TMR1IF TMR2IF CCP1IF SSPIF TXIF RCIF ADIF ]
+"542
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 542: typedef union {
+[u S23 `S24 1 ]
+[n S23 . . ]
+"553
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 553: extern volatile PIR1bits_t PIR1bits __attribute__((address(0x00C)));
+[v _PIR1bits `VS23 ~T0 @X0 0 e@12 ]
+"1133
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1133: extern volatile unsigned char TXREG __attribute__((address(0x019)));
+[v _TXREG `Vuc ~T0 @X0 0 e@25 ]
+[t ~ __interrupt . k ]
+[t T1 __interrupt ]
+"166
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 166: extern volatile unsigned char PORTA __attribute__((address(0x005)));
+[v _PORTA `Vuc ~T0 @X0 0 e@5 ]
+"1140
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1140: extern volatile unsigned char RCREG __attribute__((address(0x01A)));
+[v _RCREG `Vuc ~T0 @X0 0 e@26 ]
+"228
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 228: extern volatile unsigned char PORTB __attribute__((address(0x006)));
+[v _PORTB `Vuc ~T0 @X0 0 e@6 ]
+[p mainexit ]
+"1868
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1868:     struct {
+[s S75 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 ]
+[n S75 . SCS LTS HTS OSTS IRCF ]
+"1875
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1875:     struct {
+[s S76 :4 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S76 . . IRCF0 IRCF1 IRCF2 ]
+"1867
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1867: typedef union {
+[u S74 `S75 1 `S76 1 ]
+[n S74 . . . ]
+"1882
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1882: extern volatile OSCCONbits_t OSCCONbits __attribute__((address(0x08F)));
+[v _OSCCONbits `VS74 ~T0 @X0 0 e@143 ]
+"3387
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3387: extern volatile unsigned char ANSEL __attribute__((address(0x188)));
+[v _ANSEL `Vuc ~T0 @X0 0 e@392 ]
+"3449
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3449: extern volatile unsigned char ANSELH __attribute__((address(0x189)));
+[v _ANSELH `Vuc ~T0 @X0 0 e@393 ]
+"1416
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1416: extern volatile unsigned char TRISA __attribute__((address(0x085)));
+[v _TRISA `Vuc ~T0 @X0 0 e@133 ]
+"1478
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1478: extern volatile unsigned char TRISB __attribute__((address(0x086)));
+[v _TRISB `Vuc ~T0 @X0 0 e@134 ]
+"2562
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2562:     struct {
+[s S104 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S104 . TX9D TRMT BRGH SENDB SYNC TXEN TX9 CSRC ]
+"2572
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2572:     struct {
+[s S105 :1 `uc 1 :5 `uc 1 :1 `uc 1 ]
+[n S105 . TXD8 . nTX8 ]
+"2577
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2577:     struct {
+[s S106 :6 `uc 1 :1 `uc 1 ]
+[n S106 . . TX8_9 ]
+"2561
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2561: typedef union {
+[u S103 `S104 1 `S105 1 `S106 1 ]
+[n S103 . . . . ]
+"2582
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2582: extern volatile TXSTAbits_t TXSTAbits __attribute__((address(0x098)));
+[v _TXSTAbits `VS103 ~T0 @X0 0 e@152 ]
+"3341
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3341:     struct {
+[s S136 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S136 . ABDEN WUE . BRG16 SCKP . RCIDL ABDOVF ]
+"3340
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3340: typedef union {
+[u S135 `S136 1 ]
+[n S135 . . ]
+"3352
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3352: extern volatile BAUDCTLbits_t BAUDCTLbits __attribute__((address(0x187)));
+[v _BAUDCTLbits `VS135 ~T0 @X0 0 e@391 ]
+"2642
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2642: extern volatile unsigned char SPBRG __attribute__((address(0x099)));
+[v _SPBRG `Vuc ~T0 @X0 0 e@153 ]
+"2704
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2704: extern volatile unsigned char SPBRGH __attribute__((address(0x09A)));
+[v _SPBRGH `Vuc ~T0 @X0 0 e@154 ]
+"1044
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1044:     struct {
+[s S42 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S42 . RX9D OERR FERR ADDEN CREN SREN RX9 SPEN ]
+"1054
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1054:     struct {
+[s S43 :1 `uc 1 :5 `uc 1 :1 `uc 1 ]
+[n S43 . RCD8 . RC9 ]
+"1059
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1059:     struct {
+[s S44 :6 `uc 1 :1 `uc 1 ]
+[n S44 . . nRC8 ]
+"1063
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1063:     struct {
+[s S45 :6 `uc 1 :1 `uc 1 ]
+[n S45 . . RC8_9 ]
+"1043
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1043: typedef union {
+[u S41 `S42 1 `S43 1 `S44 1 `S45 1 ]
+[n S41 . . . . . ]
+"1068
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1068: extern volatile RCSTAbits_t RCSTAbits __attribute__((address(0x018)));
+[v _RCSTAbits `VS41 ~T0 @X0 0 e@24 ]
+"1708
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1708:     struct {
+[s S68 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S68 . TMR1IE TMR2IE CCP1IE SSPIE TXIE RCIE ADIE ]
+"1707
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1707: typedef union {
+[u S67 `S68 1 ]
+[n S67 . . ]
+"1718
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1718: extern volatile PIE1bits_t PIE1bits __attribute__((address(0x08C)));
+[v _PIE1bits `VS67 ~T0 @X0 0 e@140 ]
+"465
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 465:     struct {
+[s S21 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S21 . RBIF INTF T0IF RBIE INTE T0IE PEIE GIE ]
+"475
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 475:     struct {
+[s S22 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S22 . . TMR0IF . TMR0IE ]
+"464
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 464: typedef union {
+[u S20 `S21 1 `S22 1 ]
+[n S20 . . . ]
+"482
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 482: extern volatile INTCONbits_t INTCONbits __attribute__((address(0x00B)));
+[v _INTCONbits `VS20 ~T0 @X0 0 e@11 ]
+"54 C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 54: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"61
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 61: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"68
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 68: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"75
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 75: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"161
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 161: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"168
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 168: __asm("PORTA equ 05h");
+[; <" PORTA equ 05h ;# ">
+"230
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 230: __asm("PORTB equ 06h");
+[; <" PORTB equ 06h ;# ">
+"292
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 292: __asm("PORTC equ 07h");
+[; <" PORTC equ 07h ;# ">
+"354
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 354: __asm("PORTD equ 08h");
+[; <" PORTD equ 08h ;# ">
+"416
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 416: __asm("PORTE equ 09h");
+[; <" PORTE equ 09h ;# ">
+"454
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 454: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"461
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 461: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"539
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 539: __asm("PIR1 equ 0Ch");
+[; <" PIR1 equ 0Ch ;# ">
+"595
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 595: __asm("PIR2 equ 0Dh");
+[; <" PIR2 equ 0Dh ;# ">
+"652
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 652: __asm("TMR1 equ 0Eh");
+[; <" TMR1 equ 0Eh ;# ">
+"659
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 659: __asm("TMR1L equ 0Eh");
+[; <" TMR1L equ 0Eh ;# ">
+"666
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 666: __asm("TMR1H equ 0Fh");
+[; <" TMR1H equ 0Fh ;# ">
+"673
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 673: __asm("T1CON equ 010h");
+[; <" T1CON equ 010h ;# ">
+"767
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 767: __asm("TMR2 equ 011h");
+[; <" TMR2 equ 011h ;# ">
+"774
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 774: __asm("T2CON equ 012h");
+[; <" T2CON equ 012h ;# ">
+"845
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 845: __asm("SSPBUF equ 013h");
+[; <" SSPBUF equ 013h ;# ">
+"852
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 852: __asm("SSPCON equ 014h");
+[; <" SSPCON equ 014h ;# ">
+"922
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 922: __asm("CCPR1 equ 015h");
+[; <" CCPR1 equ 015h ;# ">
+"929
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 929: __asm("CCPR1L equ 015h");
+[; <" CCPR1L equ 015h ;# ">
+"936
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 936: __asm("CCPR1H equ 016h");
+[; <" CCPR1H equ 016h ;# ">
+"943
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 943: __asm("CCP1CON equ 017h");
+[; <" CCP1CON equ 017h ;# ">
+"1040
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1040: __asm("RCSTA equ 018h");
+[; <" RCSTA equ 018h ;# ">
+"1135
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1135: __asm("TXREG equ 019h");
+[; <" TXREG equ 019h ;# ">
+"1142
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1142: __asm("RCREG equ 01Ah");
+[; <" RCREG equ 01Ah ;# ">
+"1149
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1149: __asm("CCPR2 equ 01Bh");
+[; <" CCPR2 equ 01Bh ;# ">
+"1156
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1156: __asm("CCPR2L equ 01Bh");
+[; <" CCPR2L equ 01Bh ;# ">
+"1163
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1163: __asm("CCPR2H equ 01Ch");
+[; <" CCPR2H equ 01Ch ;# ">
+"1170
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1170: __asm("CCP2CON equ 01Dh");
+[; <" CCP2CON equ 01Dh ;# ">
+"1240
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1240: __asm("ADRESH equ 01Eh");
+[; <" ADRESH equ 01Eh ;# ">
+"1247
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1247: __asm("ADCON0 equ 01Fh");
+[; <" ADCON0 equ 01Fh ;# ">
+"1348
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1348: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"1418
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1418: __asm("TRISA equ 085h");
+[; <" TRISA equ 085h ;# ">
+"1480
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1480: __asm("TRISB equ 086h");
+[; <" TRISB equ 086h ;# ">
+"1542
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1542: __asm("TRISC equ 087h");
+[; <" TRISC equ 087h ;# ">
+"1604
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1604: __asm("TRISD equ 088h");
+[; <" TRISD equ 088h ;# ">
+"1666
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1666: __asm("TRISE equ 089h");
+[; <" TRISE equ 089h ;# ">
+"1704
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1704: __asm("PIE1 equ 08Ch");
+[; <" PIE1 equ 08Ch ;# ">
+"1760
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1760: __asm("PIE2 equ 08Dh");
+[; <" PIE2 equ 08Dh ;# ">
+"1817
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1817: __asm("PCON equ 08Eh");
+[; <" PCON equ 08Eh ;# ">
+"1864
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1864: __asm("OSCCON equ 08Fh");
+[; <" OSCCON equ 08Fh ;# ">
+"1929
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1929: __asm("OSCTUNE equ 090h");
+[; <" OSCTUNE equ 090h ;# ">
+"1981
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1981: __asm("SSPCON2 equ 091h");
+[; <" SSPCON2 equ 091h ;# ">
+"2043
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2043: __asm("PR2 equ 092h");
+[; <" PR2 equ 092h ;# ">
+"2050
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2050: __asm("SSPADD equ 093h");
+[; <" SSPADD equ 093h ;# ">
+"2057
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2057: __asm("SSPMSK equ 093h");
+[; <" SSPMSK equ 093h ;# ">
+"2062
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2062: __asm("MSK equ 093h");
+[; <" MSK equ 093h ;# ">
+"2179
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2179: __asm("SSPSTAT equ 094h");
+[; <" SSPSTAT equ 094h ;# ">
+"2348
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2348: __asm("WPUB equ 095h");
+[; <" WPUB equ 095h ;# ">
+"2418
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2418: __asm("IOCB equ 096h");
+[; <" IOCB equ 096h ;# ">
+"2488
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2488: __asm("VRCON equ 097h");
+[; <" VRCON equ 097h ;# ">
+"2558
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2558: __asm("TXSTA equ 098h");
+[; <" TXSTA equ 098h ;# ">
+"2644
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2644: __asm("SPBRG equ 099h");
+[; <" SPBRG equ 099h ;# ">
+"2706
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2706: __asm("SPBRGH equ 09Ah");
+[; <" SPBRGH equ 09Ah ;# ">
+"2776
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2776: __asm("PWM1CON equ 09Bh");
+[; <" PWM1CON equ 09Bh ;# ">
+"2846
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2846: __asm("ECCPAS equ 09Ch");
+[; <" ECCPAS equ 09Ch ;# ">
+"2928
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2928: __asm("PSTRCON equ 09Dh");
+[; <" PSTRCON equ 09Dh ;# ">
+"2972
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2972: __asm("ADRESL equ 09Eh");
+[; <" ADRESL equ 09Eh ;# ">
+"2979
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2979: __asm("ADCON1 equ 09Fh");
+[; <" ADCON1 equ 09Fh ;# ">
+"3013
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3013: __asm("WDTCON equ 0105h");
+[; <" WDTCON equ 0105h ;# ">
+"3066
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3066: __asm("CM1CON0 equ 0107h");
+[; <" CM1CON0 equ 0107h ;# ">
+"3131
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3131: __asm("CM2CON0 equ 0108h");
+[; <" CM2CON0 equ 0108h ;# ">
+"3196
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3196: __asm("CM2CON1 equ 0109h");
+[; <" CM2CON1 equ 0109h ;# ">
+"3247
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3247: __asm("EEDATA equ 010Ch");
+[; <" EEDATA equ 010Ch ;# ">
+"3252
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3252: __asm("EEDAT equ 010Ch");
+[; <" EEDAT equ 010Ch ;# ">
+"3259
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3259: __asm("EEADR equ 010Dh");
+[; <" EEADR equ 010Dh ;# ">
+"3266
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3266: __asm("EEDATH equ 010Eh");
+[; <" EEDATH equ 010Eh ;# ">
+"3273
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3273: __asm("EEADRH equ 010Fh");
+[; <" EEADRH equ 010Fh ;# ">
+"3280
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3280: __asm("SRCON equ 0185h");
+[; <" SRCON equ 0185h ;# ">
+"3337
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3337: __asm("BAUDCTL equ 0187h");
+[; <" BAUDCTL equ 0187h ;# ">
+"3389
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3389: __asm("ANSEL equ 0188h");
+[; <" ANSEL equ 0188h ;# ">
+"3451
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3451: __asm("ANSELH equ 0189h");
+[; <" ANSELH equ 0189h ;# ">
+"3501
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3501: __asm("EECON1 equ 018Ch");
+[; <" EECON1 equ 018Ch ;# ">
+"3546
+[; ;C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3546: __asm("EECON2 equ 018Dh");
+[; <" EECON2 equ 018Dh ;# ">
+"13 Sereal2.c
+[; ;Sereal2.c: 13:         if (PIR1bits.TXIF)
+[p x FOSC=INTRC_NOCLKOUT  ]
+"14
+[; ;Sereal2.c: 14:         {
+[p x WDTE=OFF            ]
+"15
+[; ;Sereal2.c: 15:             TXREG = 72;
+[p x PWRTE=ON            ]
+"16
+[; ;Sereal2.c: 16:         }
+[p x MCLRE=OFF           ]
+"17
+[; ;Sereal2.c: 17:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[p x CP=OFF              ]
+"18
+[; ;Sereal2.c: 18:         if (PIR1bits.TXIF)
+[p x CPD=OFF             ]
+"20
+[; ;Sereal2.c: 20:             TXREG = 79;
+[p x BOREN=OFF  ]
+"21
+[; ;Sereal2.c: 21:         }
+[p x IESO=OFF   ]
+"22
+[; ;Sereal2.c: 22:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[p x FCMEN=OFF  ]
+"23
+[; ;Sereal2.c: 23:         if (PIR1bits.TXIF)
+[p x LVP=ON     ]
+"26
+[; ;Sereal2.c: 26:         }
+[p x WRT=OFF  ]
+"27
+[; ;Sereal2.c: 27:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[p x BOR4V=BOR40V  ]
+"30
+[; ;Sereal2.c: 30:             TXREG = 65;
+[v _Constante_impresion `uc ~T0 @X0 1 e ]
+[i _Constante_impresion
+-> -> 70 `i `uc
+]
+"31
+[; ;Sereal2.c: 31:         }
+[v _Boolean `uc ~T0 @X0 1 e ]
+[i _Boolean
+-> -> 0 `i `uc
+]
+"34
+[; ;Sereal2.c: 34:         {
+[v _HOLA_MUNDO `(v ~T0 @X0 1 ef ]
+"35
+[; ;Sereal2.c: 35:             TXREG = 32;
+{
+[e :U _HOLA_MUNDO ]
+[f ]
+"36
+[; ;Sereal2.c: 36:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"37
+[; ;Sereal2.c: 37:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 144  ]
+"38
+[; ;Sereal2.c: 38:         if (PIR1bits.TXIF)
+{
+"39
+[; ;Sereal2.c: 39:         {
+[e = _TXREG -> -> 13 `i `uc ]
+"40
+[; ;Sereal2.c: 40:             TXREG = 66;
+}
+[e :U 144 ]
+"41
+[; ;Sereal2.c: 41:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"42
+[; ;Sereal2.c: 42:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 145  ]
+"43
+[; ;Sereal2.c: 43:         if (PIR1bits.TXIF)
+{
+"44
+[; ;Sereal2.c: 44:         {
+[e = _TXREG -> -> 72 `i `uc ]
+"45
+[; ;Sereal2.c: 45:             TXREG = 85;
+}
+[e :U 145 ]
+"46
+[; ;Sereal2.c: 46:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"47
+[; ;Sereal2.c: 47:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 146  ]
+"48
+[; ;Sereal2.c: 48:         if (PIR1bits.TXIF)
+{
+"49
+[; ;Sereal2.c: 49:         {
+[e = _TXREG -> -> 79 `i `uc ]
+"50
+[; ;Sereal2.c: 50:             TXREG = 69;
+}
+[e :U 146 ]
+"51
+[; ;Sereal2.c: 51:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"52
+[; ;Sereal2.c: 52:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 147  ]
+"53
+[; ;Sereal2.c: 53:         if (PIR1bits.TXIF)
+{
+"54
+[; ;Sereal2.c: 54:         {
+[e = _TXREG -> -> 76 `i `uc ]
+"55
+[; ;Sereal2.c: 55:             TXREG = 78;
+}
+[e :U 147 ]
+"56
+[; ;Sereal2.c: 56:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"57
+[; ;Sereal2.c: 57:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 148  ]
+"58
+[; ;Sereal2.c: 58:         if (PIR1bits.TXIF)
+{
+"59
+[; ;Sereal2.c: 59:         {
+[e = _TXREG -> -> 65 `i `uc ]
+"60
+[; ;Sereal2.c: 60:             TXREG = 65;
+}
+[e :U 148 ]
+"61
+[; ;Sereal2.c: 61:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"62
+[; ;Sereal2.c: 62:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 149  ]
+"63
+[; ;Sereal2.c: 63:         if (PIR1bits.TXIF)
+{
+"64
+[; ;Sereal2.c: 64:         {
+[e = _TXREG -> -> 32 `i `uc ]
+"65
+[; ;Sereal2.c: 65:             TXREG = 83;
+}
+[e :U 149 ]
+"66
+[; ;Sereal2.c: 66:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"67
+[; ;Sereal2.c: 67:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 150  ]
+"68
+[; ;Sereal2.c: 68:         if (PIR1bits.TXIF)
+{
+"69
+[; ;Sereal2.c: 69:         {
+[e = _TXREG -> -> 66 `i `uc ]
+"70
+[; ;Sereal2.c: 70:             TXREG = 32;
+}
+[e :U 150 ]
+"71
+[; ;Sereal2.c: 71:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"72
+[; ;Sereal2.c: 72:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 151  ]
+"73
+[; ;Sereal2.c: 73: 
+{
+"74
+[; ;Sereal2.c: 74:         if (PIR1bits.TXIF)
+[e = _TXREG -> -> 85 `i `uc ]
+"75
+[; ;Sereal2.c: 75:         {
+}
+[e :U 151 ]
+"76
+[; ;Sereal2.c: 76:             TXREG = 84;
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"77
+[; ;Sereal2.c: 77:         }
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 152  ]
+"78
+[; ;Sereal2.c: 78:         _delay((unsigned long)((5)*(8000000/4000.0)));
+{
+"79
+[; ;Sereal2.c: 79:         if (PIR1bits.TXIF)
+[e = _TXREG -> -> 69 `i `uc ]
+"80
+[; ;Sereal2.c: 80:         {
+}
+[e :U 152 ]
+"81
+[; ;Sereal2.c: 81:             TXREG = 65;
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"82
+[; ;Sereal2.c: 82:         }
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 153  ]
+"83
+[; ;Sereal2.c: 83:         _delay((unsigned long)((5)*(8000000/4000.0)));
+{
+"84
+[; ;Sereal2.c: 84:         if (PIR1bits.TXIF)
+[e = _TXREG -> -> 78 `i `uc ]
+"85
+[; ;Sereal2.c: 85:         {
+}
+[e :U 153 ]
+"86
+[; ;Sereal2.c: 86:             TXREG = 82;
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"87
+[; ;Sereal2.c: 87:         }
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 154  ]
+"88
+[; ;Sereal2.c: 88:         _delay((unsigned long)((5)*(8000000/4000.0)));
+{
+"89
+[; ;Sereal2.c: 89:         if (PIR1bits.TXIF)
+[e = _TXREG -> -> 65 `i `uc ]
+"90
+[; ;Sereal2.c: 90:         {
+}
+[e :U 154 ]
+"91
+[; ;Sereal2.c: 91:             TXREG = 68;
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"92
+[; ;Sereal2.c: 92:         }
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 155  ]
+"93
+[; ;Sereal2.c: 93:         _delay((unsigned long)((5)*(8000000/4000.0)));
+{
+"94
+[; ;Sereal2.c: 94:         if (PIR1bits.TXIF)
+[e = _TXREG -> -> 83 `i `uc ]
+"95
+[; ;Sereal2.c: 95:         {
+}
+[e :U 155 ]
+"96
+[; ;Sereal2.c: 96:             TXREG = 69;
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"97
+[; ;Sereal2.c: 97:         }
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 156  ]
+"98
+[; ;Sereal2.c: 98:         _delay((unsigned long)((5)*(8000000/4000.0)));
+{
+"99
+[; ;Sereal2.c: 99:         if (PIR1bits.TXIF)
+[e = _TXREG -> -> 32 `i `uc ]
+"100
+[; ;Sereal2.c: 100:         {
+}
+[e :U 156 ]
+"101
+[; ;Sereal2.c: 101:             TXREG = 83;
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"103
+[; ;Sereal2.c: 103:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 157  ]
+"104
+[; ;Sereal2.c: 104:         if (PIR1bits.TXIF)
+{
+"105
+[; ;Sereal2.c: 105:         {
+[e = _TXREG -> -> 84 `i `uc ]
+"106
+[; ;Sereal2.c: 106:             TXREG = 13;
+}
+[e :U 157 ]
+"107
+[; ;Sereal2.c: 107:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"108
+[; ;Sereal2.c: 108: }
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 158  ]
+"109
+[; ;Sereal2.c: 109: 
+{
+"110
+[; ;Sereal2.c: 110: void MENU (void)
+[e = _TXREG -> -> 65 `i `uc ]
+"111
+[; ;Sereal2.c: 111: {
+}
+[e :U 158 ]
+"112
+[; ;Sereal2.c: 112:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"113
+[; ;Sereal2.c: 113:         if (PIR1bits.TXIF)
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 159  ]
+"114
+[; ;Sereal2.c: 114:         {
+{
+"115
+[; ;Sereal2.c: 115:             TXREG = 81;
+[e = _TXREG -> -> 82 `i `uc ]
+"116
+[; ;Sereal2.c: 116:         }
+}
+[e :U 159 ]
+"117
+[; ;Sereal2.c: 117:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"118
+[; ;Sereal2.c: 118:         if (PIR1bits.TXIF)
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 160  ]
+"119
+[; ;Sereal2.c: 119:         {
+{
+"120
+[; ;Sereal2.c: 120:             TXREG = 117;
+[e = _TXREG -> -> 68 `i `uc ]
+"121
+[; ;Sereal2.c: 121:         }
+}
+[e :U 160 ]
+"122
+[; ;Sereal2.c: 122:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"123
+[; ;Sereal2.c: 123:         if (PIR1bits.TXIF)
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 161  ]
+"124
+[; ;Sereal2.c: 124:         {
+{
+"125
+[; ;Sereal2.c: 125:             TXREG = 101;
+[e = _TXREG -> -> 69 `i `uc ]
+"126
+[; ;Sereal2.c: 126:         }
+}
+[e :U 161 ]
+"127
+[; ;Sereal2.c: 127:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"128
+[; ;Sereal2.c: 128:         if (PIR1bits.TXIF)
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 162  ]
+"129
+[; ;Sereal2.c: 129:         {
+{
+"130
+[; ;Sereal2.c: 130:             TXREG = 32;
+[e = _TXREG -> -> 83 `i `uc ]
+"131
+[; ;Sereal2.c: 131:         }
+}
+[e :U 162 ]
+"132
+[; ;Sereal2.c: 132:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"133
+[; ;Sereal2.c: 133:         if (PIR1bits.TXIF)
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 163  ]
+"134
+[; ;Sereal2.c: 134:         {
+{
+"135
+[; ;Sereal2.c: 135:             TXREG = 97;
+[e = _TXREG -> -> 13 `i `uc ]
+"136
+[; ;Sereal2.c: 136:         }
+}
+[e :U 163 ]
+"137
+[; ;Sereal2.c: 137:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e :UE 143 ]
+}
+"139
+[; ;Sereal2.c: 139:         {
+[v _MENU `(v ~T0 @X0 1 ef ]
+"140
+[; ;Sereal2.c: 140:             TXREG = 99;
+{
+[e :U _MENU ]
+[f ]
+"141
+[; ;Sereal2.c: 141:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"142
+[; ;Sereal2.c: 142:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 165  ]
+"143
+[; ;Sereal2.c: 143:         if (PIR1bits.TXIF)
+{
+"144
+[; ;Sereal2.c: 144:         {
+[e = _TXREG -> -> 81 `i `uc ]
+"145
+[; ;Sereal2.c: 145:             TXREG = 99;
+}
+[e :U 165 ]
+"146
+[; ;Sereal2.c: 146:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"147
+[; ;Sereal2.c: 147:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 166  ]
+"148
+[; ;Sereal2.c: 148:         if (PIR1bits.TXIF)
+{
+"149
+[; ;Sereal2.c: 149:         {
+[e = _TXREG -> -> 117 `i `uc ]
+"150
+[; ;Sereal2.c: 150:             TXREG = 105;
+}
+[e :U 166 ]
+"151
+[; ;Sereal2.c: 151:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"152
+[; ;Sereal2.c: 152:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 167  ]
+"153
+[; ;Sereal2.c: 153:         if (PIR1bits.TXIF)
+{
+"154
+[; ;Sereal2.c: 154:         {
+[e = _TXREG -> -> 101 `i `uc ]
+"155
+[; ;Sereal2.c: 155:             TXREG = 111;
+}
+[e :U 167 ]
+"156
+[; ;Sereal2.c: 156:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"157
+[; ;Sereal2.c: 157:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 168  ]
+"158
+[; ;Sereal2.c: 158:         if (PIR1bits.TXIF)
+{
+"159
+[; ;Sereal2.c: 159:         {
+[e = _TXREG -> -> 32 `i `uc ]
+"160
+[; ;Sereal2.c: 160:             TXREG = 110;
+}
+[e :U 168 ]
+"161
+[; ;Sereal2.c: 161:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"162
+[; ;Sereal2.c: 162: 
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 169  ]
+"163
+[; ;Sereal2.c: 163:         if (PIR1bits.TXIF)
+{
+"164
+[; ;Sereal2.c: 164:         {
+[e = _TXREG -> -> 97 `i `uc ]
+"165
+[; ;Sereal2.c: 165:             TXREG = 32;
+}
+[e :U 169 ]
+"166
+[; ;Sereal2.c: 166:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"167
+[; ;Sereal2.c: 167:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 170  ]
+"168
+[; ;Sereal2.c: 168:         if (PIR1bits.TXIF)
+{
+"169
+[; ;Sereal2.c: 169:         {
+[e = _TXREG -> -> 99 `i `uc ]
+"170
+[; ;Sereal2.c: 170:             TXREG = 100;
+}
+[e :U 170 ]
+"171
+[; ;Sereal2.c: 171:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"172
+[; ;Sereal2.c: 172:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 171  ]
+"173
+[; ;Sereal2.c: 173:         if (PIR1bits.TXIF)
+{
+"174
+[; ;Sereal2.c: 174:         {
+[e = _TXREG -> -> 99 `i `uc ]
+"175
+[; ;Sereal2.c: 175:             TXREG = 101;
+}
+[e :U 171 ]
+"176
+[; ;Sereal2.c: 176:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"177
+[; ;Sereal2.c: 177:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 172  ]
+"178
+[; ;Sereal2.c: 178:         if (PIR1bits.TXIF)
+{
+"179
+[; ;Sereal2.c: 179:         {
+[e = _TXREG -> -> 105 `i `uc ]
+"180
+[; ;Sereal2.c: 180:             TXREG = 115;
+}
+[e :U 172 ]
+"181
+[; ;Sereal2.c: 181:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"182
+[; ;Sereal2.c: 182:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 173  ]
+"183
+[; ;Sereal2.c: 183:         if (PIR1bits.TXIF)
+{
+"184
+[; ;Sereal2.c: 184:         {
+[e = _TXREG -> -> 111 `i `uc ]
+"185
+[; ;Sereal2.c: 185:             TXREG = 101;
+}
+[e :U 173 ]
+"186
+[; ;Sereal2.c: 186:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"187
+[; ;Sereal2.c: 187:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 174  ]
+"188
+[; ;Sereal2.c: 188:         if (PIR1bits.TXIF)
+{
+"189
+[; ;Sereal2.c: 189:         {
+[e = _TXREG -> -> 110 `i `uc ]
+"190
+[; ;Sereal2.c: 190:             TXREG = 97;
+}
+[e :U 174 ]
+"192
+[; ;Sereal2.c: 192:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 175  ]
+"193
+[; ;Sereal2.c: 193:         if (PIR1bits.TXIF)
+{
+"194
+[; ;Sereal2.c: 194:         {
+[e = _TXREG -> -> 32 `i `uc ]
+"195
+[; ;Sereal2.c: 195:             TXREG = 32;
+}
+[e :U 175 ]
+"196
+[; ;Sereal2.c: 196:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"197
+[; ;Sereal2.c: 197:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 176  ]
+"198
+[; ;Sereal2.c: 198:         if (PIR1bits.TXIF)
+{
+"199
+[; ;Sereal2.c: 199:         {
+[e = _TXREG -> -> 100 `i `uc ]
+"200
+[; ;Sereal2.c: 200:             TXREG = 101;
+}
+[e :U 176 ]
+"201
+[; ;Sereal2.c: 201:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"202
+[; ;Sereal2.c: 202:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 177  ]
+"203
+[; ;Sereal2.c: 203:         if (PIR1bits.TXIF)
+{
+"204
+[; ;Sereal2.c: 204:         {
+[e = _TXREG -> -> 101 `i `uc ]
+"205
+[; ;Sereal2.c: 205:             TXREG = 106;
+}
+[e :U 177 ]
+"206
+[; ;Sereal2.c: 206:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"207
+[; ;Sereal2.c: 207:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 178  ]
+"208
+[; ;Sereal2.c: 208:         if (PIR1bits.TXIF)
+{
+"209
+[; ;Sereal2.c: 209:         {
+[e = _TXREG -> -> 115 `i `uc ]
+"210
+[; ;Sereal2.c: 210:             TXREG = 101;
+}
+[e :U 178 ]
+"211
+[; ;Sereal2.c: 211:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"212
+[; ;Sereal2.c: 212:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 179  ]
+"213
+[; ;Sereal2.c: 213:         if (PIR1bits.TXIF)
+{
+"214
+[; ;Sereal2.c: 214:         {
+[e = _TXREG -> -> 101 `i `uc ]
+"215
+[; ;Sereal2.c: 215:             TXREG = 99;
+}
+[e :U 179 ]
+"216
+[; ;Sereal2.c: 216:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"217
+[; ;Sereal2.c: 217:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 180  ]
+"218
+[; ;Sereal2.c: 218:         if (PIR1bits.TXIF)
+{
+"219
+[; ;Sereal2.c: 219:         {
+[e = _TXREG -> -> 97 `i `uc ]
+"220
+[; ;Sereal2.c: 220:             TXREG = 117;
+}
+[e :U 180 ]
+"221
+[; ;Sereal2.c: 221:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"222
+[; ;Sereal2.c: 222:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 181  ]
+"223
+[; ;Sereal2.c: 223:         if (PIR1bits.TXIF)
+{
+"224
+[; ;Sereal2.c: 224:         {
+[e = _TXREG -> -> 32 `i `uc ]
+"225
+[; ;Sereal2.c: 225:             TXREG = 116;
+}
+[e :U 181 ]
+"226
+[; ;Sereal2.c: 226:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"227
+[; ;Sereal2.c: 227:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 182  ]
+"228
+[; ;Sereal2.c: 228:         if (PIR1bits.TXIF)
+{
+"229
+[; ;Sereal2.c: 229:         {
+[e = _TXREG -> -> 101 `i `uc ]
+"230
+[; ;Sereal2.c: 230:             TXREG = 97;
+}
+[e :U 182 ]
+"231
+[; ;Sereal2.c: 231:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"232
+[; ;Sereal2.c: 232:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 183  ]
+"233
+[; ;Sereal2.c: 233:         if (PIR1bits.TXIF)
+{
+"234
+[; ;Sereal2.c: 234:         {
+[e = _TXREG -> -> 106 `i `uc ]
+"235
+[; ;Sereal2.c: 235:             TXREG = 114;
+}
+[e :U 183 ]
+"236
+[; ;Sereal2.c: 236:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"237
+[; ;Sereal2.c: 237:         if (PIR1bits.TXIF)
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 184  ]
+"238
+[; ;Sereal2.c: 238:         {
+{
+"239
+[; ;Sereal2.c: 239:             TXREG = 63;
+[e = _TXREG -> -> 101 `i `uc ]
+"240
+[; ;Sereal2.c: 240:         }
+}
+[e :U 184 ]
+"241
+[; ;Sereal2.c: 241: 
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"242
+[; ;Sereal2.c: 242:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 185  ]
+"243
+[; ;Sereal2.c: 243:         if (PIR1bits.TXIF)
+{
+"244
+[; ;Sereal2.c: 244:         {
+[e = _TXREG -> -> 99 `i `uc ]
+"245
+[; ;Sereal2.c: 245:             TXREG = 13;
+}
+[e :U 185 ]
+"246
+[; ;Sereal2.c: 246:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"247
+[; ;Sereal2.c: 247: 
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 186  ]
+"248
+[; ;Sereal2.c: 248: 
+{
+"249
+[; ;Sereal2.c: 249:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e = _TXREG -> -> 117 `i `uc ]
+"250
+[; ;Sereal2.c: 250:         if (PIR1bits.TXIF)
+}
+[e :U 186 ]
+"251
+[; ;Sereal2.c: 251:         {
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"252
+[; ;Sereal2.c: 252:             TXREG = 40;
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 187  ]
+"253
+[; ;Sereal2.c: 253:         }
+{
+"254
+[; ;Sereal2.c: 254:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e = _TXREG -> -> 116 `i `uc ]
+"255
+[; ;Sereal2.c: 255:         if (PIR1bits.TXIF)
+}
+[e :U 187 ]
+"256
+[; ;Sereal2.c: 256:         {
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"257
+[; ;Sereal2.c: 257:             TXREG = 49;
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 188  ]
+"258
+[; ;Sereal2.c: 258:         }
+{
+"259
+[; ;Sereal2.c: 259:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e = _TXREG -> -> 97 `i `uc ]
+"260
+[; ;Sereal2.c: 260:         if (PIR1bits.TXIF)
+}
+[e :U 188 ]
+"261
+[; ;Sereal2.c: 261:         {
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"262
+[; ;Sereal2.c: 262:             TXREG = 41;
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 189  ]
+"263
+[; ;Sereal2.c: 263:         }
+{
+"264
+[; ;Sereal2.c: 264:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e = _TXREG -> -> 114 `i `uc ]
+"265
+[; ;Sereal2.c: 265:         if (PIR1bits.TXIF)
+}
+[e :U 189 ]
+"266
+[; ;Sereal2.c: 266:         {
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 190  ]
+"267
+[; ;Sereal2.c: 267:             TXREG = 32;
+{
+"268
+[; ;Sereal2.c: 268:         }
+[e = _TXREG -> -> 63 `i `uc ]
+"269
+[; ;Sereal2.c: 269:         _delay((unsigned long)((5)*(8000000/4000.0)));
+}
+[e :U 190 ]
+"271
+[; ;Sereal2.c: 271:         {
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"272
+[; ;Sereal2.c: 272:             TXREG = 68;
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 191  ]
+"273
+[; ;Sereal2.c: 273:         }
+{
+"274
+[; ;Sereal2.c: 274:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e = _TXREG -> -> 13 `i `uc ]
+"275
+[; ;Sereal2.c: 275:         if (PIR1bits.TXIF)
+}
+[e :U 191 ]
+"278
+[; ;Sereal2.c: 278:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"279
+[; ;Sereal2.c: 279:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 192  ]
+"280
+[; ;Sereal2.c: 280:         if (PIR1bits.TXIF)
+{
+"281
+[; ;Sereal2.c: 281:         {
+[e = _TXREG -> -> 40 `i `uc ]
+"282
+[; ;Sereal2.c: 282:             TXREG = 115;
+}
+[e :U 192 ]
+"283
+[; ;Sereal2.c: 283:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"284
+[; ;Sereal2.c: 284:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 193  ]
+"285
+[; ;Sereal2.c: 285:         if (PIR1bits.TXIF)
+{
+"286
+[; ;Sereal2.c: 286:         {
+[e = _TXREG -> -> 49 `i `uc ]
+"287
+[; ;Sereal2.c: 287:             TXREG = 112;
+}
+[e :U 193 ]
+"288
+[; ;Sereal2.c: 288:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"289
+[; ;Sereal2.c: 289:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 194  ]
+"290
+[; ;Sereal2.c: 290:         if (PIR1bits.TXIF)
+{
+"291
+[; ;Sereal2.c: 291:         {
+[e = _TXREG -> -> 41 `i `uc ]
+"292
+[; ;Sereal2.c: 292:             TXREG = 108;
+}
+[e :U 194 ]
+"293
+[; ;Sereal2.c: 293:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"294
+[; ;Sereal2.c: 294:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 195  ]
+"295
+[; ;Sereal2.c: 295:         if (PIR1bits.TXIF)
+{
+"296
+[; ;Sereal2.c: 296:         {
+[e = _TXREG -> -> 32 `i `uc ]
+"297
+[; ;Sereal2.c: 297:             TXREG = 101;
+}
+[e :U 195 ]
+"298
+[; ;Sereal2.c: 298:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"299
+[; ;Sereal2.c: 299:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 196  ]
+"300
+[; ;Sereal2.c: 300:         if (PIR1bits.TXIF)
+{
+"301
+[; ;Sereal2.c: 301:         {
+[e = _TXREG -> -> 68 `i `uc ]
+"302
+[; ;Sereal2.c: 302:             TXREG = 103;
+}
+[e :U 196 ]
+"303
+[; ;Sereal2.c: 303:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"304
+[; ;Sereal2.c: 304:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 197  ]
+"305
+[; ;Sereal2.c: 305:         if (PIR1bits.TXIF)
+{
+"306
+[; ;Sereal2.c: 306:         {
+[e = _TXREG -> -> 101 `i `uc ]
+"307
+[; ;Sereal2.c: 307:             TXREG = 97;
+}
+[e :U 197 ]
+"308
+[; ;Sereal2.c: 308:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"309
+[; ;Sereal2.c: 309:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 198  ]
+"310
+[; ;Sereal2.c: 310:         if (PIR1bits.TXIF)
+{
+"311
+[; ;Sereal2.c: 311:         {
+[e = _TXREG -> -> 115 `i `uc ]
+"312
+[; ;Sereal2.c: 312:             TXREG = 114;
+}
+[e :U 198 ]
+"313
+[; ;Sereal2.c: 313:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"314
+[; ;Sereal2.c: 314:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 199  ]
+"315
+[; ;Sereal2.c: 315:         if (PIR1bits.TXIF)
+{
+"316
+[; ;Sereal2.c: 316:         {
+[e = _TXREG -> -> 112 `i `uc ]
+"317
+[; ;Sereal2.c: 317:             TXREG = 32;
+}
+[e :U 199 ]
+"318
+[; ;Sereal2.c: 318:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"319
+[; ;Sereal2.c: 319:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 200  ]
+"320
+[; ;Sereal2.c: 320:         if (PIR1bits.TXIF)
+{
+"321
+[; ;Sereal2.c: 321:         {
+[e = _TXREG -> -> 108 `i `uc ]
+"322
+[; ;Sereal2.c: 322:             TXREG = 99;
+}
+[e :U 200 ]
+"323
+[; ;Sereal2.c: 323:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"324
+[; ;Sereal2.c: 324:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 201  ]
+"325
+[; ;Sereal2.c: 325:         if (PIR1bits.TXIF)
+{
+"326
+[; ;Sereal2.c: 326:         {
+[e = _TXREG -> -> 101 `i `uc ]
+"327
+[; ;Sereal2.c: 327:             TXREG = 97;
+}
+[e :U 201 ]
+"328
+[; ;Sereal2.c: 328:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"329
+[; ;Sereal2.c: 329:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 202  ]
+"330
+[; ;Sereal2.c: 330:         if (PIR1bits.TXIF)
+{
+"331
+[; ;Sereal2.c: 331:         {
+[e = _TXREG -> -> 103 `i `uc ]
+"332
+[; ;Sereal2.c: 332:             TXREG = 100;
+}
+[e :U 202 ]
+"333
+[; ;Sereal2.c: 333:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"334
+[; ;Sereal2.c: 334:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 203  ]
+"335
+[; ;Sereal2.c: 335:         if (PIR1bits.TXIF)
+{
+"336
+[; ;Sereal2.c: 336:         {
+[e = _TXREG -> -> 97 `i `uc ]
+"337
+[; ;Sereal2.c: 337:             TXREG = 101;
+}
+[e :U 203 ]
+"338
+[; ;Sereal2.c: 338:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"339
+[; ;Sereal2.c: 339:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 204  ]
+"340
+[; ;Sereal2.c: 340:         if (PIR1bits.TXIF)
+{
+"341
+[; ;Sereal2.c: 341:         {
+[e = _TXREG -> -> 114 `i `uc ]
+"342
+[; ;Sereal2.c: 342:             TXREG = 110;
+}
+[e :U 204 ]
+"343
+[; ;Sereal2.c: 343:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"344
+[; ;Sereal2.c: 344:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 205  ]
+"345
+[; ;Sereal2.c: 345:         if (PIR1bits.TXIF)
+{
+"346
+[; ;Sereal2.c: 346:         {
+[e = _TXREG -> -> 32 `i `uc ]
+"347
+[; ;Sereal2.c: 347:             TXREG = 97;
+}
+[e :U 205 ]
+"348
+[; ;Sereal2.c: 348:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"349
+[; ;Sereal2.c: 349:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 206  ]
+"350
+[; ;Sereal2.c: 350:         if (PIR1bits.TXIF)
+{
+"351
+[; ;Sereal2.c: 351:         {
+[e = _TXREG -> -> 99 `i `uc ]
+"352
+[; ;Sereal2.c: 352:             TXREG = 32;
+}
+[e :U 206 ]
+"353
+[; ;Sereal2.c: 353:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"354
+[; ;Sereal2.c: 354:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 207  ]
+"355
+[; ;Sereal2.c: 355:         if (PIR1bits.TXIF)
+{
+"356
+[; ;Sereal2.c: 356:         {
+[e = _TXREG -> -> 97 `i `uc ]
+"357
+[; ;Sereal2.c: 357:             TXREG = 100;
+}
+[e :U 207 ]
+"358
+[; ;Sereal2.c: 358:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"359
+[; ;Sereal2.c: 359:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 208  ]
+"360
+[; ;Sereal2.c: 360:         if (PIR1bits.TXIF)
+{
+"361
+[; ;Sereal2.c: 361:         {
+[e = _TXREG -> -> 100 `i `uc ]
+"362
+[; ;Sereal2.c: 362:             TXREG = 101;
+}
+[e :U 208 ]
+"363
+[; ;Sereal2.c: 363:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"364
+[; ;Sereal2.c: 364:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 209  ]
+"365
+[; ;Sereal2.c: 365:         if (PIR1bits.TXIF)
+{
+"366
+[; ;Sereal2.c: 366:         {
+[e = _TXREG -> -> 101 `i `uc ]
+"367
+[; ;Sereal2.c: 367:             TXREG = 32;
+}
+[e :U 209 ]
+"368
+[; ;Sereal2.c: 368:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"369
+[; ;Sereal2.c: 369:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 210  ]
+"370
+[; ;Sereal2.c: 370:         if (PIR1bits.TXIF)
+{
+"371
+[; ;Sereal2.c: 371:         {
+[e = _TXREG -> -> 110 `i `uc ]
+"372
+[; ;Sereal2.c: 372:             TXREG = 99;
+}
+[e :U 210 ]
+"373
+[; ;Sereal2.c: 373:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"374
+[; ;Sereal2.c: 374:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 211  ]
+"375
+[; ;Sereal2.c: 375:         if (PIR1bits.TXIF)
+{
+"376
+[; ;Sereal2.c: 376:         {
+[e = _TXREG -> -> 97 `i `uc ]
+"377
+[; ;Sereal2.c: 377:             TXREG = 97;
+}
+[e :U 211 ]
+"378
+[; ;Sereal2.c: 378:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"379
+[; ;Sereal2.c: 379:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 212  ]
+"380
+[; ;Sereal2.c: 380:         if (PIR1bits.TXIF)
+{
+"381
+[; ;Sereal2.c: 381:         {
+[e = _TXREG -> -> 32 `i `uc ]
+"382
+[; ;Sereal2.c: 382:             TXREG = 114;
+}
+[e :U 212 ]
+"383
+[; ;Sereal2.c: 383:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"384
+[; ;Sereal2.c: 384:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 213  ]
+"385
+[; ;Sereal2.c: 385:         if (PIR1bits.TXIF)
+{
+"386
+[; ;Sereal2.c: 386:         {
+[e = _TXREG -> -> 100 `i `uc ]
+"387
+[; ;Sereal2.c: 387:             TXREG = 97;
+}
+[e :U 213 ]
+"388
+[; ;Sereal2.c: 388:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"389
+[; ;Sereal2.c: 389:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 214  ]
+"390
+[; ;Sereal2.c: 390:         if (PIR1bits.TXIF)
+{
+"391
+[; ;Sereal2.c: 391:         {
+[e = _TXREG -> -> 101 `i `uc ]
+"392
+[; ;Sereal2.c: 392:             TXREG = 99;
+}
+[e :U 214 ]
+"393
+[; ;Sereal2.c: 393:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"394
+[; ;Sereal2.c: 394:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 215  ]
+"395
+[; ;Sereal2.c: 395:         if (PIR1bits.TXIF)
+{
+"396
+[; ;Sereal2.c: 396:         {
+[e = _TXREG -> -> 32 `i `uc ]
+"397
+[; ;Sereal2.c: 397:             TXREG = 116;
+}
+[e :U 215 ]
+"398
+[; ;Sereal2.c: 398:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"399
+[; ;Sereal2.c: 399:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 216  ]
+"400
+[; ;Sereal2.c: 400:         if (PIR1bits.TXIF)
+{
+"401
+[; ;Sereal2.c: 401:         {
+[e = _TXREG -> -> 99 `i `uc ]
+"402
+[; ;Sereal2.c: 402:             TXREG = 101;
+}
+[e :U 216 ]
+"403
+[; ;Sereal2.c: 403:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"404
+[; ;Sereal2.c: 404:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 217  ]
+"405
+[; ;Sereal2.c: 405:         if (PIR1bits.TXIF)
+{
+"406
+[; ;Sereal2.c: 406:         {
+[e = _TXREG -> -> 97 `i `uc ]
+"407
+[; ;Sereal2.c: 407:             TXREG = 114;
+}
+[e :U 217 ]
+"408
+[; ;Sereal2.c: 408:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"409
+[; ;Sereal2.c: 409:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 218  ]
+"410
+[; ;Sereal2.c: 410:         if (PIR1bits.TXIF)
+{
+"411
+[; ;Sereal2.c: 411:         {
+[e = _TXREG -> -> 114 `i `uc ]
+"412
+[; ;Sereal2.c: 412:             TXREG = 101;
+}
+[e :U 218 ]
+"413
+[; ;Sereal2.c: 413:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"414
+[; ;Sereal2.c: 414:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 219  ]
+"415
+[; ;Sereal2.c: 415:         if (PIR1bits.TXIF)
+{
+"416
+[; ;Sereal2.c: 416:         {
+[e = _TXREG -> -> 97 `i `uc ]
+"417
+[; ;Sereal2.c: 417:             TXREG = 115;
+}
+[e :U 219 ]
+"418
+[; ;Sereal2.c: 418:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"419
+[; ;Sereal2.c: 419: 
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 220  ]
+"420
+[; ;Sereal2.c: 420:         _delay((unsigned long)((5)*(8000000/4000.0)));
+{
+"421
+[; ;Sereal2.c: 421:         if (PIR1bits.TXIF)
+[e = _TXREG -> -> 99 `i `uc ]
+"422
+[; ;Sereal2.c: 422:         {
+}
+[e :U 220 ]
+"423
+[; ;Sereal2.c: 423:             TXREG = 13;
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"424
+[; ;Sereal2.c: 424:         }
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 221  ]
+"425
+[; ;Sereal2.c: 425: 
+{
+"426
+[; ;Sereal2.c: 426:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e = _TXREG -> -> 116 `i `uc ]
+"427
+[; ;Sereal2.c: 427:         if (PIR1bits.TXIF)
+}
+[e :U 221 ]
+"428
+[; ;Sereal2.c: 428:         {
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"429
+[; ;Sereal2.c: 429:             TXREG = 40;
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 222  ]
+"430
+[; ;Sereal2.c: 430:         }
+{
+"431
+[; ;Sereal2.c: 431:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e = _TXREG -> -> 101 `i `uc ]
+"432
+[; ;Sereal2.c: 432:         if (PIR1bits.TXIF)
+}
+[e :U 222 ]
+"433
+[; ;Sereal2.c: 433:         {
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"434
+[; ;Sereal2.c: 434:             TXREG = 50;
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 223  ]
+"435
+[; ;Sereal2.c: 435:         }
+{
+"436
+[; ;Sereal2.c: 436:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e = _TXREG -> -> 114 `i `uc ]
+"437
+[; ;Sereal2.c: 437:         if (PIR1bits.TXIF)
+}
+[e :U 223 ]
+"438
+[; ;Sereal2.c: 438:         {
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"439
+[; ;Sereal2.c: 439:             TXREG = 41;
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 224  ]
+"440
+[; ;Sereal2.c: 440:         }
+{
+"441
+[; ;Sereal2.c: 441:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e = _TXREG -> -> 101 `i `uc ]
+"442
+[; ;Sereal2.c: 442:         if (PIR1bits.TXIF)
+}
+[e :U 224 ]
+"443
+[; ;Sereal2.c: 443:         {
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"444
+[; ;Sereal2.c: 444:             TXREG = 32;
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 225  ]
+"445
+[; ;Sereal2.c: 445:         }
+{
+"446
+[; ;Sereal2.c: 446:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e = _TXREG -> -> 115 `i `uc ]
+"447
+[; ;Sereal2.c: 447:         if (PIR1bits.TXIF)
+}
+[e :U 225 ]
+"449
+[; ;Sereal2.c: 449:             TXREG = 67;
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"450
+[; ;Sereal2.c: 450:         }
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 226  ]
+"451
+[; ;Sereal2.c: 451:         _delay((unsigned long)((5)*(8000000/4000.0)));
+{
+"452
+[; ;Sereal2.c: 452:         if (PIR1bits.TXIF)
+[e = _TXREG -> -> 13 `i `uc ]
+"453
+[; ;Sereal2.c: 453:         {
+}
+[e :U 226 ]
+"455
+[; ;Sereal2.c: 455:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"456
+[; ;Sereal2.c: 456:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 227  ]
+"457
+[; ;Sereal2.c: 457:         if (PIR1bits.TXIF)
+{
+"458
+[; ;Sereal2.c: 458:         {
+[e = _TXREG -> -> 40 `i `uc ]
+"459
+[; ;Sereal2.c: 459:             TXREG = 109;
+}
+[e :U 227 ]
+"460
+[; ;Sereal2.c: 460:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"461
+[; ;Sereal2.c: 461:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 228  ]
+"462
+[; ;Sereal2.c: 462:         if (PIR1bits.TXIF)
+{
+"463
+[; ;Sereal2.c: 463:         {
+[e = _TXREG -> -> 50 `i `uc ]
+"464
+[; ;Sereal2.c: 464:             TXREG = 98;
+}
+[e :U 228 ]
+"465
+[; ;Sereal2.c: 465:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"466
+[; ;Sereal2.c: 466:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 229  ]
+"467
+[; ;Sereal2.c: 467:         if (PIR1bits.TXIF)
+{
+"468
+[; ;Sereal2.c: 468:         {
+[e = _TXREG -> -> 41 `i `uc ]
+"469
+[; ;Sereal2.c: 469:             TXREG = 105;
+}
+[e :U 229 ]
+"470
+[; ;Sereal2.c: 470:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"471
+[; ;Sereal2.c: 471:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 230  ]
+"472
+[; ;Sereal2.c: 472:         if (PIR1bits.TXIF)
+{
+"473
+[; ;Sereal2.c: 473:         {
+[e = _TXREG -> -> 32 `i `uc ]
+"474
+[; ;Sereal2.c: 474:             TXREG = 97;
+}
+[e :U 230 ]
+"475
+[; ;Sereal2.c: 475:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"476
+[; ;Sereal2.c: 476:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 231  ]
+"477
+[; ;Sereal2.c: 477:         if (PIR1bits.TXIF)
+{
+"478
+[; ;Sereal2.c: 478:         {
+[e = _TXREG -> -> 67 `i `uc ]
+"479
+[; ;Sereal2.c: 479:             TXREG = 114;
+}
+[e :U 231 ]
+"480
+[; ;Sereal2.c: 480:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"481
+[; ;Sereal2.c: 481:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 232  ]
+"482
+[; ;Sereal2.c: 482:         if (PIR1bits.TXIF)
+{
+"483
+[; ;Sereal2.c: 483:         {
+[e = _TXREG -> -> 97 `i `uc ]
+"484
+[; ;Sereal2.c: 484:             TXREG = 32;
+}
+[e :U 232 ]
+"485
+[; ;Sereal2.c: 485:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"486
+[; ;Sereal2.c: 486:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 233  ]
+"487
+[; ;Sereal2.c: 487:         if (PIR1bits.TXIF)
+{
+"488
+[; ;Sereal2.c: 488:         {
+[e = _TXREG -> -> 109 `i `uc ]
+"489
+[; ;Sereal2.c: 489:             TXREG = 80;
+}
+[e :U 233 ]
+"490
+[; ;Sereal2.c: 490:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"491
+[; ;Sereal2.c: 491:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 234  ]
+"492
+[; ;Sereal2.c: 492:         if (PIR1bits.TXIF)
+{
+"493
+[; ;Sereal2.c: 493:         {
+[e = _TXREG -> -> 98 `i `uc ]
+"494
+[; ;Sereal2.c: 494:             TXREG = 79;
+}
+[e :U 234 ]
+"495
+[; ;Sereal2.c: 495:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"496
+[; ;Sereal2.c: 496:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 235  ]
+"497
+[; ;Sereal2.c: 497:         if (PIR1bits.TXIF)
+{
+"498
+[; ;Sereal2.c: 498:         {
+[e = _TXREG -> -> 105 `i `uc ]
+"499
+[; ;Sereal2.c: 499:             TXREG = 82;
+}
+[e :U 235 ]
+"500
+[; ;Sereal2.c: 500:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"501
+[; ;Sereal2.c: 501:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 236  ]
+"502
+[; ;Sereal2.c: 502:         if (PIR1bits.TXIF)
+{
+"503
+[; ;Sereal2.c: 503:         {
+[e = _TXREG -> -> 97 `i `uc ]
+"504
+[; ;Sereal2.c: 504:             TXREG = 84;
+}
+[e :U 236 ]
+"505
+[; ;Sereal2.c: 505:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"506
+[; ;Sereal2.c: 506:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 237  ]
+"507
+[; ;Sereal2.c: 507:         if (PIR1bits.TXIF)
+{
+"508
+[; ;Sereal2.c: 508:         {
+[e = _TXREG -> -> 114 `i `uc ]
+"509
+[; ;Sereal2.c: 509:             TXREG = 65;
+}
+[e :U 237 ]
+"510
+[; ;Sereal2.c: 510:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"511
+[; ;Sereal2.c: 511:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 238  ]
+"512
+[; ;Sereal2.c: 512:         if (PIR1bits.TXIF)
+{
+"513
+[; ;Sereal2.c: 513:         {
+[e = _TXREG -> -> 32 `i `uc ]
+"514
+[; ;Sereal2.c: 514:             TXREG = 13;
+}
+[e :U 238 ]
+"515
+[; ;Sereal2.c: 515:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"516
+[; ;Sereal2.c: 516: 
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 239  ]
+"517
+[; ;Sereal2.c: 517: 
+{
+"518
+[; ;Sereal2.c: 518: 
+[e = _TXREG -> -> 80 `i `uc ]
+"519
+[; ;Sereal2.c: 519:         _delay((unsigned long)((5)*(8000000/4000.0)));
+}
+[e :U 239 ]
+"520
+[; ;Sereal2.c: 520:         if (PIR1bits.TXIF)
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"521
+[; ;Sereal2.c: 521:         {
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 240  ]
+"522
+[; ;Sereal2.c: 522:             TXREG = 40;
+{
+"523
+[; ;Sereal2.c: 523:         }
+[e = _TXREG -> -> 79 `i `uc ]
+"524
+[; ;Sereal2.c: 524:         _delay((unsigned long)((5)*(8000000/4000.0)));
+}
+[e :U 240 ]
+"525
+[; ;Sereal2.c: 525:         if (PIR1bits.TXIF)
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"526
+[; ;Sereal2.c: 526:         {
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 241  ]
+"527
+[; ;Sereal2.c: 527:             TXREG = 51;
+{
+"528
+[; ;Sereal2.c: 528:         }
+[e = _TXREG -> -> 82 `i `uc ]
+"529
+[; ;Sereal2.c: 529:         _delay((unsigned long)((5)*(8000000/4000.0)));
+}
+[e :U 241 ]
+"530
+[; ;Sereal2.c: 530:         if (PIR1bits.TXIF)
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"531
+[; ;Sereal2.c: 531:         {
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 242  ]
+"532
+[; ;Sereal2.c: 532:             TXREG = 41;
+{
+"533
+[; ;Sereal2.c: 533:         }
+[e = _TXREG -> -> 84 `i `uc ]
+"534
+[; ;Sereal2.c: 534:         _delay((unsigned long)((5)*(8000000/4000.0)));
+}
+[e :U 242 ]
+"535
+[; ;Sereal2.c: 535:         if (PIR1bits.TXIF)
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"536
+[; ;Sereal2.c: 536:         {
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 243  ]
+"537
+[; ;Sereal2.c: 537:             TXREG = 32;
+{
+"538
+[; ;Sereal2.c: 538:         }
+[e = _TXREG -> -> 65 `i `uc ]
+"539
+[; ;Sereal2.c: 539:         _delay((unsigned long)((5)*(8000000/4000.0)));
+}
+[e :U 243 ]
+"540
+[; ;Sereal2.c: 540:         if (PIR1bits.TXIF)
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"541
+[; ;Sereal2.c: 541:         {
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 244  ]
+"542
+[; ;Sereal2.c: 542:             TXREG = 67;
+{
+"543
+[; ;Sereal2.c: 543:         }
+[e = _TXREG -> -> 13 `i `uc ]
+"544
+[; ;Sereal2.c: 544:         _delay((unsigned long)((5)*(8000000/4000.0)));
+}
+[e :U 244 ]
+"548
+[; ;Sereal2.c: 548:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"549
+[; ;Sereal2.c: 549:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 245  ]
+"550
+[; ;Sereal2.c: 550:         if (PIR1bits.TXIF)
+{
+"551
+[; ;Sereal2.c: 551:         {
+[e = _TXREG -> -> 40 `i `uc ]
+"552
+[; ;Sereal2.c: 552:             TXREG = 109;
+}
+[e :U 245 ]
+"553
+[; ;Sereal2.c: 553:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"554
+[; ;Sereal2.c: 554:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 246  ]
+"555
+[; ;Sereal2.c: 555:         if (PIR1bits.TXIF)
+{
+"556
+[; ;Sereal2.c: 556:         {
+[e = _TXREG -> -> 51 `i `uc ]
+"557
+[; ;Sereal2.c: 557:             TXREG = 98;
+}
+[e :U 246 ]
+"558
+[; ;Sereal2.c: 558:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"559
+[; ;Sereal2.c: 559:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 247  ]
+"560
+[; ;Sereal2.c: 560:         if (PIR1bits.TXIF)
+{
+"561
+[; ;Sereal2.c: 561:         {
+[e = _TXREG -> -> 41 `i `uc ]
+"562
+[; ;Sereal2.c: 562:             TXREG = 105;
+}
+[e :U 247 ]
+"563
+[; ;Sereal2.c: 563:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"564
+[; ;Sereal2.c: 564:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 248  ]
+"565
+[; ;Sereal2.c: 565:         if (PIR1bits.TXIF)
+{
+"566
+[; ;Sereal2.c: 566:         {
+[e = _TXREG -> -> 32 `i `uc ]
+"567
+[; ;Sereal2.c: 567:             TXREG = 97;
+}
+[e :U 248 ]
+"568
+[; ;Sereal2.c: 568:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"569
+[; ;Sereal2.c: 569:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 249  ]
+"570
+[; ;Sereal2.c: 570:         if (PIR1bits.TXIF)
+{
+"571
+[; ;Sereal2.c: 571:         {
+[e = _TXREG -> -> 67 `i `uc ]
+"572
+[; ;Sereal2.c: 572:             TXREG = 114;
+}
+[e :U 249 ]
+"573
+[; ;Sereal2.c: 573:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"574
+[; ;Sereal2.c: 574:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 250  ]
+"575
+[; ;Sereal2.c: 575:         if (PIR1bits.TXIF)
+{
+"576
+[; ;Sereal2.c: 576:         {
+[e = _TXREG -> -> 97 `i `uc ]
+"577
+[; ;Sereal2.c: 577:             TXREG = 32;
+}
+[e :U 250 ]
+"578
+[; ;Sereal2.c: 578:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"579
+[; ;Sereal2.c: 579:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 251  ]
+"580
+[; ;Sereal2.c: 580:         if (PIR1bits.TXIF)
+{
+"581
+[; ;Sereal2.c: 581:         {
+[e = _TXREG -> -> 109 `i `uc ]
+"582
+[; ;Sereal2.c: 582:             TXREG = 80;
+}
+[e :U 251 ]
+"583
+[; ;Sereal2.c: 583:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"584
+[; ;Sereal2.c: 584:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 252  ]
+"585
+[; ;Sereal2.c: 585:         if (PIR1bits.TXIF)
+{
+"586
+[; ;Sereal2.c: 586:         {
+[e = _TXREG -> -> 98 `i `uc ]
+"587
+[; ;Sereal2.c: 587:             TXREG = 79;
+}
+[e :U 252 ]
+"588
+[; ;Sereal2.c: 588:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"589
+[; ;Sereal2.c: 589:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 253  ]
+"590
+[; ;Sereal2.c: 590:         if (PIR1bits.TXIF)
+{
+"591
+[; ;Sereal2.c: 591:         {
+[e = _TXREG -> -> 105 `i `uc ]
+"592
+[; ;Sereal2.c: 592:             TXREG = 82;
+}
+[e :U 253 ]
+"593
+[; ;Sereal2.c: 593:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"594
+[; ;Sereal2.c: 594:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 254  ]
+"595
+[; ;Sereal2.c: 595:         if (PIR1bits.TXIF)
+{
+"596
+[; ;Sereal2.c: 596:         {
+[e = _TXREG -> -> 97 `i `uc ]
+"597
+[; ;Sereal2.c: 597:             TXREG = 84;
+}
+[e :U 254 ]
+"598
+[; ;Sereal2.c: 598:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"599
+[; ;Sereal2.c: 599:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 255  ]
+"600
+[; ;Sereal2.c: 600:         if (PIR1bits.TXIF)
+{
+"601
+[; ;Sereal2.c: 601:         {
+[e = _TXREG -> -> 114 `i `uc ]
+"602
+[; ;Sereal2.c: 602:             TXREG = 66;
+}
+[e :U 255 ]
+"603
+[; ;Sereal2.c: 603:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"604
+[; ;Sereal2.c: 604:         _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 256  ]
+"605
+[; ;Sereal2.c: 605:         if (PIR1bits.TXIF)
+{
+"606
+[; ;Sereal2.c: 606:         {
+[e = _TXREG -> -> 32 `i `uc ]
+"607
+[; ;Sereal2.c: 607:             TXREG = 13;
+}
+[e :U 256 ]
+"608
+[; ;Sereal2.c: 608:         }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"609
+[; ;Sereal2.c: 609: }
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 257  ]
+"610
+[; ;Sereal2.c: 610: 
+{
+"611
+[; ;Sereal2.c: 611: void INGRESE_NUEVO_VALOR (void)
+[e = _TXREG -> -> 80 `i `uc ]
+"612
+[; ;Sereal2.c: 612: {
+}
+[e :U 257 ]
+"613
+[; ;Sereal2.c: 613:     _delay((unsigned long)((5)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"614
+[; ;Sereal2.c: 614:     if (PIR1bits.TXIF)
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 258  ]
+"615
+[; ;Sereal2.c: 615:     {
+{
+"616
+[; ;Sereal2.c: 616:         TXREG = 13;
+[e = _TXREG -> -> 79 `i `uc ]
+"617
+[; ;Sereal2.c: 617:     }
+}
+[e :U 258 ]
+"618
+[; ;Sereal2.c: 618:     _delay((unsigned long)((5)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"619
+[; ;Sereal2.c: 619:     if (PIR1bits.TXIF)
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 259  ]
+"620
+[; ;Sereal2.c: 620:     {
+{
+"621
+[; ;Sereal2.c: 621:         TXREG = 73;
+[e = _TXREG -> -> 82 `i `uc ]
+"622
+[; ;Sereal2.c: 622:     }
+}
+[e :U 259 ]
+"623
+[; ;Sereal2.c: 623:     _delay((unsigned long)((5)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"624
+[; ;Sereal2.c: 624:     if (PIR1bits.TXIF)
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 260  ]
+"625
+[; ;Sereal2.c: 625:     {
+{
+"626
+[; ;Sereal2.c: 626:         TXREG = 110;
+[e = _TXREG -> -> 84 `i `uc ]
+"627
+[; ;Sereal2.c: 627:     }
+}
+[e :U 260 ]
+"628
+[; ;Sereal2.c: 628:     _delay((unsigned long)((5)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"629
+[; ;Sereal2.c: 629:     if (PIR1bits.TXIF)
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 261  ]
+"630
+[; ;Sereal2.c: 630:     {
+{
+"631
+[; ;Sereal2.c: 631:         TXREG = 103;
+[e = _TXREG -> -> 66 `i `uc ]
+"632
+[; ;Sereal2.c: 632:     }
+}
+[e :U 261 ]
+"633
+[; ;Sereal2.c: 633:     _delay((unsigned long)((5)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"634
+[; ;Sereal2.c: 634:     if (PIR1bits.TXIF)
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 262  ]
+"635
+[; ;Sereal2.c: 635:     {
+{
+"636
+[; ;Sereal2.c: 636:         TXREG = 114;
+[e = _TXREG -> -> 13 `i `uc ]
+"637
+[; ;Sereal2.c: 637:     }
+}
+[e :U 262 ]
+"638
+[; ;Sereal2.c: 638:     _delay((unsigned long)((5)*(8000000/4000.0)));
+[e :UE 164 ]
+}
+"640
+[; ;Sereal2.c: 640:     {
+[v _INGRESE_NUEVO_VALOR `(v ~T0 @X0 1 ef ]
+"641
+[; ;Sereal2.c: 641:         TXREG = 101;
+{
+[e :U _INGRESE_NUEVO_VALOR ]
+[f ]
+"642
+[; ;Sereal2.c: 642:     }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"643
+[; ;Sereal2.c: 643:     _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 264  ]
+"644
+[; ;Sereal2.c: 644:     if (PIR1bits.TXIF)
+{
+"645
+[; ;Sereal2.c: 645:     {
+[e = _TXREG -> -> 13 `i `uc ]
+"646
+[; ;Sereal2.c: 646:         TXREG = 115;
+}
+[e :U 264 ]
+"647
+[; ;Sereal2.c: 647:     }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"648
+[; ;Sereal2.c: 648:     _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 265  ]
+"649
+[; ;Sereal2.c: 649:     if (PIR1bits.TXIF)
+{
+"650
+[; ;Sereal2.c: 650:     {
+[e = _TXREG -> -> 73 `i `uc ]
+"651
+[; ;Sereal2.c: 651:         TXREG = 101;
+}
+[e :U 265 ]
+"652
+[; ;Sereal2.c: 652:     }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"653
+[; ;Sereal2.c: 653:     _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 266  ]
+"654
+[; ;Sereal2.c: 654:     if (PIR1bits.TXIF)
+{
+"655
+[; ;Sereal2.c: 655:     {
+[e = _TXREG -> -> 110 `i `uc ]
+"656
+[; ;Sereal2.c: 656:         TXREG = 32;
+}
+[e :U 266 ]
+"657
+[; ;Sereal2.c: 657:     }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"658
+[; ;Sereal2.c: 658:     _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 267  ]
+"659
+[; ;Sereal2.c: 659:     if (PIR1bits.TXIF)
+{
+"660
+[; ;Sereal2.c: 660:     {
+[e = _TXREG -> -> 103 `i `uc ]
+"661
+[; ;Sereal2.c: 661:         TXREG = 101;
+}
+[e :U 267 ]
+"662
+[; ;Sereal2.c: 662:     }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"663
+[; ;Sereal2.c: 663:     _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 268  ]
+"664
+[; ;Sereal2.c: 664:     if (PIR1bits.TXIF)
+{
+"665
+[; ;Sereal2.c: 665:     {
+[e = _TXREG -> -> 114 `i `uc ]
+"666
+[; ;Sereal2.c: 666:         TXREG = 108;
+}
+[e :U 268 ]
+"667
+[; ;Sereal2.c: 667:     }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"668
+[; ;Sereal2.c: 668:     _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 269  ]
+"669
+[; ;Sereal2.c: 669:     if (PIR1bits.TXIF)
+{
+"670
+[; ;Sereal2.c: 670:     {
+[e = _TXREG -> -> 101 `i `uc ]
+"671
+[; ;Sereal2.c: 671:         TXREG = 32;
+}
+[e :U 269 ]
+"672
+[; ;Sereal2.c: 672:     }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"673
+[; ;Sereal2.c: 673:     _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 270  ]
+"674
+[; ;Sereal2.c: 674:     if (PIR1bits.TXIF)
+{
+"675
+[; ;Sereal2.c: 675:     {
+[e = _TXREG -> -> 115 `i `uc ]
+"676
+[; ;Sereal2.c: 676:         TXREG = 110;
+}
+[e :U 270 ]
+"677
+[; ;Sereal2.c: 677:     }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"678
+[; ;Sereal2.c: 678:     _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 271  ]
+"679
+[; ;Sereal2.c: 679:     if (PIR1bits.TXIF)
+{
+"680
+[; ;Sereal2.c: 680:     {
+[e = _TXREG -> -> 101 `i `uc ]
+"681
+[; ;Sereal2.c: 681:         TXREG = 117;
+}
+[e :U 271 ]
+"682
+[; ;Sereal2.c: 682:     }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"683
+[; ;Sereal2.c: 683:     _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 272  ]
+"684
+[; ;Sereal2.c: 684:     if (PIR1bits.TXIF)
+{
+"685
+[; ;Sereal2.c: 685:     {
+[e = _TXREG -> -> 32 `i `uc ]
+"686
+[; ;Sereal2.c: 686:         TXREG = 101;
+}
+[e :U 272 ]
+"687
+[; ;Sereal2.c: 687:     }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"688
+[; ;Sereal2.c: 688:     _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 273  ]
+"689
+[; ;Sereal2.c: 689:     if (PIR1bits.TXIF)
+{
+"690
+[; ;Sereal2.c: 690:     {
+[e = _TXREG -> -> 101 `i `uc ]
+"691
+[; ;Sereal2.c: 691:         TXREG = 118;
+}
+[e :U 273 ]
+"692
+[; ;Sereal2.c: 692:     }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"693
+[; ;Sereal2.c: 693:     _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 274  ]
+"694
+[; ;Sereal2.c: 694:     if (PIR1bits.TXIF)
+{
+"695
+[; ;Sereal2.c: 695:     {
+[e = _TXREG -> -> 108 `i `uc ]
+"696
+[; ;Sereal2.c: 696:         TXREG = 111;
+}
+[e :U 274 ]
+"697
+[; ;Sereal2.c: 697:     }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"698
+[; ;Sereal2.c: 698:     _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 275  ]
+"699
+[; ;Sereal2.c: 699:     if (PIR1bits.TXIF)
+{
+"700
+[; ;Sereal2.c: 700:     {
+[e = _TXREG -> -> 32 `i `uc ]
+"701
+[; ;Sereal2.c: 701:         TXREG = 32;
+}
+[e :U 275 ]
+"702
+[; ;Sereal2.c: 702:     }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"703
+[; ;Sereal2.c: 703:     _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 276  ]
+"704
+[; ;Sereal2.c: 704:     if (PIR1bits.TXIF)
+{
+"705
+[; ;Sereal2.c: 705:     {
+[e = _TXREG -> -> 110 `i `uc ]
+"706
+[; ;Sereal2.c: 706:         TXREG = 118;
+}
+[e :U 276 ]
+"707
+[; ;Sereal2.c: 707:     }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"708
+[; ;Sereal2.c: 708:     _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 277  ]
+"709
+[; ;Sereal2.c: 709:     if (PIR1bits.TXIF)
+{
+"710
+[; ;Sereal2.c: 710:     {
+[e = _TXREG -> -> 117 `i `uc ]
+"711
+[; ;Sereal2.c: 711:         TXREG = 97;
+}
+[e :U 277 ]
+"712
+[; ;Sereal2.c: 712:     }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"713
+[; ;Sereal2.c: 713:     _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 278  ]
+"714
+[; ;Sereal2.c: 714:     if (PIR1bits.TXIF)
+{
+"715
+[; ;Sereal2.c: 715:     {
+[e = _TXREG -> -> 101 `i `uc ]
+"716
+[; ;Sereal2.c: 716:         TXREG = 108;
+}
+[e :U 278 ]
+"717
+[; ;Sereal2.c: 717:     }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"718
+[; ;Sereal2.c: 718:     _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 279  ]
+"719
+[; ;Sereal2.c: 719:     if (PIR1bits.TXIF)
+{
+"720
+[; ;Sereal2.c: 720:     {
+[e = _TXREG -> -> 118 `i `uc ]
+"721
+[; ;Sereal2.c: 721:         TXREG = 111;
+}
+[e :U 279 ]
+"722
+[; ;Sereal2.c: 722:     }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"723
+[; ;Sereal2.c: 723:     _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 280  ]
+"724
+[; ;Sereal2.c: 724:     if (PIR1bits.TXIF)
+{
+"725
+[; ;Sereal2.c: 725:     {
+[e = _TXREG -> -> 111 `i `uc ]
+"726
+[; ;Sereal2.c: 726:         TXREG = 114;
+}
+[e :U 280 ]
+"727
+[; ;Sereal2.c: 727:     }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"728
+[; ;Sereal2.c: 728:     _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 281  ]
+"729
+[; ;Sereal2.c: 729:     if (PIR1bits.TXIF)
+{
+"730
+[; ;Sereal2.c: 730:     {
+[e = _TXREG -> -> 32 `i `uc ]
+"731
+[; ;Sereal2.c: 731:         TXREG = 58;
+}
+[e :U 281 ]
+"732
+[; ;Sereal2.c: 732:     }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"733
+[; ;Sereal2.c: 733:     _delay((unsigned long)((5)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 282  ]
+"734
+[; ;Sereal2.c: 734:     if (PIR1bits.TXIF)
+{
+"735
+[; ;Sereal2.c: 735:     {
+[e = _TXREG -> -> 118 `i `uc ]
+"736
+[; ;Sereal2.c: 736:         TXREG = 32;
+}
+[e :U 282 ]
+"737
+[; ;Sereal2.c: 737:     }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"738
+[; ;Sereal2.c: 738: }
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 283  ]
+"739
+[; ;Sereal2.c: 739: 
+{
+"740
+[; ;Sereal2.c: 740: void __attribute__((picinterrupt(("")))) isr(void)
+[e = _TXREG -> -> 97 `i `uc ]
+"741
+[; ;Sereal2.c: 741: {
+}
+[e :U 283 ]
+"742
+[; ;Sereal2.c: 742:     if (PIR1bits.RCIF)
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"743
+[; ;Sereal2.c: 743:     {
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 284  ]
+"744
+[; ;Sereal2.c: 744: 
+{
+"745
+[; ;Sereal2.c: 745:         switch (RCREG)
+[e = _TXREG -> -> 108 `i `uc ]
+"746
+[; ;Sereal2.c: 746:         {
+}
+[e :U 284 ]
+"747
+[; ;Sereal2.c: 747:             case 49:
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"748
+[; ;Sereal2.c: 748:                 HOLA_MUNDO();
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 285  ]
+"749
+[; ;Sereal2.c: 749:                 if (PIR1bits.TXIF)
+{
+"750
+[; ;Sereal2.c: 750:                 {
+[e = _TXREG -> -> 111 `i `uc ]
+"751
+[; ;Sereal2.c: 751:                     TXREG = 13;
+}
+[e :U 285 ]
+"752
+[; ;Sereal2.c: 752:                 }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"753
+[; ;Sereal2.c: 753:                 MENU();
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 286  ]
+"754
+[; ;Sereal2.c: 754:                 break;
+{
+"755
+[; ;Sereal2.c: 755: 
+[e = _TXREG -> -> 114 `i `uc ]
+"756
+[; ;Sereal2.c: 756:             case 50:
+}
+[e :U 286 ]
+"757
+[; ;Sereal2.c: 757:                 INGRESE_NUEVO_VALOR();
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"758
+[; ;Sereal2.c: 758:                 do
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 287  ]
+"759
+[; ;Sereal2.c: 759:                 {
+{
+"760
+[; ;Sereal2.c: 760:                     if (PIR1bits.RCIF)
+[e = _TXREG -> -> 58 `i `uc ]
+"761
+[; ;Sereal2.c: 761:                     {
+}
+[e :U 287 ]
+"762
+[; ;Sereal2.c: 762:                         PORTA = RCREG;
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"763
+[; ;Sereal2.c: 763:                         Boolean = 255;
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 288  ]
+"764
+[; ;Sereal2.c: 764:                     }
+{
+"765
+[; ;Sereal2.c: 765:                 }
+[e = _TXREG -> -> 32 `i `uc ]
+"766
+[; ;Sereal2.c: 766:                 while (Boolean==0);
+}
+[e :U 288 ]
+"767
+[; ;Sereal2.c: 767:                 _delay((unsigned long)((50)*(8000000/4000.0)));
+[e :UE 263 ]
+}
+[v $root$_isr `(v ~T0 @X0 0 e ]
+"769
+[; ;Sereal2.c: 769:                 {
+[v _isr `(v ~T1 @X0 1 ef ]
+"770
+[; ;Sereal2.c: 770:                     TXREG = 13;
+{
+[e :U _isr ]
+[f ]
+"771
+[; ;Sereal2.c: 771:                 }
+[e $ ! != -> . . _PIR1bits 0 5 `i -> 0 `i 290  ]
+"772
+[; ;Sereal2.c: 772:                 _delay((unsigned long)((50)*(8000000/4000.0)));
+{
+"774
+[; ;Sereal2.c: 774:                 {
+[e $U 292  ]
+"775
+[; ;Sereal2.c: 775:                     TXREG = 13;
+{
+"776
+[; ;Sereal2.c: 776:                 }
+[e :U 293 ]
+"777
+[; ;Sereal2.c: 777:                 MENU();
+[e ( _HOLA_MUNDO ..  ]
+"778
+[; ;Sereal2.c: 778:                 Boolean=0;
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 294  ]
+"779
+[; ;Sereal2.c: 779:                 break;
+{
+"780
+[; ;Sereal2.c: 780: 
+[e = _TXREG -> -> 13 `i `uc ]
+"781
+[; ;Sereal2.c: 781:             case 51:
+}
+[e :U 294 ]
+"782
+[; ;Sereal2.c: 782:                 INGRESE_NUEVO_VALOR();
+[e ( _MENU ..  ]
+"783
+[; ;Sereal2.c: 783:                 do
+[e $U 291  ]
+"785
+[; ;Sereal2.c: 785:                     if (PIR1bits.RCIF)
+[e :U 295 ]
+"786
+[; ;Sereal2.c: 786:                     {
+[e ( _INGRESE_NUEVO_VALOR ..  ]
+"787
+[; ;Sereal2.c: 787:                         PORTB = RCREG;
+[e :U 298 ]
+"788
+[; ;Sereal2.c: 788:                         Boolean = 255;
+{
+"789
+[; ;Sereal2.c: 789:                     }
+[e $ ! != -> . . _PIR1bits 0 5 `i -> 0 `i 299  ]
+"790
+[; ;Sereal2.c: 790:                 }
+{
+"791
+[; ;Sereal2.c: 791:                 while (Boolean==0);
+[e = _PORTA _RCREG ]
+"792
+[; ;Sereal2.c: 792:                 _delay((unsigned long)((50)*(8000000/4000.0)));
+[e = _Boolean -> -> 255 `i `uc ]
+"793
+[; ;Sereal2.c: 793:                 if (PIR1bits.TXIF)
+}
+[e :U 299 ]
+"794
+[; ;Sereal2.c: 794:                 {
+}
+[e $ == -> _Boolean `i -> 0 `i 298  ]
+[e :U 297 ]
+"796
+[; ;Sereal2.c: 796:                 }
+[e ( __delay (1 -> * -> -> 50 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"797
+[; ;Sereal2.c: 797:                 _delay((unsigned long)((50)*(8000000/4000.0)));
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 300  ]
+"798
+[; ;Sereal2.c: 798:                 if (PIR1bits.TXIF)
+{
+"799
+[; ;Sereal2.c: 799:                 {
+[e = _TXREG -> -> 13 `i `uc ]
+"800
+[; ;Sereal2.c: 800:                     TXREG = 13;
+}
+[e :U 300 ]
+"801
+[; ;Sereal2.c: 801:                 }
+[e ( __delay (1 -> * -> -> 50 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"802
+[; ;Sereal2.c: 802:                 MENU();
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 301  ]
+"803
+[; ;Sereal2.c: 803:                 Boolean=0;
+{
+"804
+[; ;Sereal2.c: 804:                 break;
+[e = _TXREG -> -> 13 `i `uc ]
+"805
+[; ;Sereal2.c: 805:         }
+}
+[e :U 301 ]
+"806
+[; ;Sereal2.c: 806:     }
+[e ( _MENU ..  ]
+"807
+[; ;Sereal2.c: 807: }
+[e = _Boolean -> -> 0 `i `uc ]
+"808
+[; ;Sereal2.c: 808: 
+[e $U 291  ]
+"810
+[; ;Sereal2.c: 810: 
+[e :U 302 ]
+"811
+[; ;Sereal2.c: 811: 
+[e ( _INGRESE_NUEVO_VALOR ..  ]
+"812
+[; ;Sereal2.c: 812:     OSCCONbits.IRCF2 = 1;
+[e :U 305 ]
+"813
+[; ;Sereal2.c: 813:     OSCCONbits.IRCF1 = 0;
+{
+"814
+[; ;Sereal2.c: 814:     OSCCONbits.IRCF0 = 0;
+[e $ ! != -> . . _PIR1bits 0 5 `i -> 0 `i 306  ]
+"815
+[; ;Sereal2.c: 815:     OSCCONbits.SCS = 1;
+{
+"816
+[; ;Sereal2.c: 816: 
+[e = _PORTB _RCREG ]
+"817
+[; ;Sereal2.c: 817:     ANSEL = 0;
+[e = _Boolean -> -> 255 `i `uc ]
+"818
+[; ;Sereal2.c: 818:     ANSELH = 0;
+}
+[e :U 306 ]
+"819
+[; ;Sereal2.c: 819:     TRISA = 0;
+}
+[e $ == -> _Boolean `i -> 0 `i 305  ]
+[e :U 304 ]
+"821
+[; ;Sereal2.c: 821: 
+[e ( __delay (1 -> * -> -> 50 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"822
+[; ;Sereal2.c: 822:     PORTA = 0;
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 307  ]
+"823
+[; ;Sereal2.c: 823:     PORTB = 0;
+{
+"824
+[; ;Sereal2.c: 824: 
+[e = _TXREG -> -> 13 `i `uc ]
+"825
+[; ;Sereal2.c: 825: 
+}
+[e :U 307 ]
+"826
+[; ;Sereal2.c: 826:     TXSTAbits.SYNC = 0;
+[e ( __delay (1 -> * -> -> 50 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"827
+[; ;Sereal2.c: 827:     TXSTAbits.BRGH = 1;
+[e $ ! != -> . . _PIR1bits 0 4 `i -> 0 `i 308  ]
+"828
+[; ;Sereal2.c: 828: 
+{
+"829
+[; ;Sereal2.c: 829:     BAUDCTLbits.BRG16 = 1;
+[e = _TXREG -> -> 13 `i `uc ]
+"830
+[; ;Sereal2.c: 830: 
+}
+[e :U 308 ]
+"831
+[; ;Sereal2.c: 831:     SPBRG = 25;
+[e ( _MENU ..  ]
+"832
+[; ;Sereal2.c: 832:     SPBRGH = 0;
+[e = _Boolean -> -> 0 `i `uc ]
+"833
+[; ;Sereal2.c: 833: 
+[e $U 291  ]
+"834
+[; ;Sereal2.c: 834:     RCSTAbits.SPEN = 1;
+}
+[e $U 291  ]
+[e :U 292 ]
+[e [\ -> _RCREG `i , $ -> 49 `i 293
+ , $ -> 50 `i 295
+ , $ -> 51 `i 302
+ 291 ]
+[e :U 291 ]
+"835
+[; ;Sereal2.c: 835:     RCSTAbits.RX9 = 0;
+}
+[e :U 290 ]
+"836
+[; ;Sereal2.c: 836:     RCSTAbits.CREN = 1;
+[e :UE 289 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"838
+[; ;Sereal2.c: 838:     TXSTAbits.TXEN = 1;
+[v _main `(v ~T0 @X0 1 ef ]
+{
+[e :U _main ]
+[f ]
+"841
+[; ;Sereal2.c: 841:     PIR1bits.RCIF = 1;
+[e = . . _OSCCONbits 1 3 -> -> 1 `i `uc ]
+"842
+[; ;Sereal2.c: 842:     PIE1bits.RCIE = 1;
+[e = . . _OSCCONbits 1 2 -> -> 0 `i `uc ]
+"843
+[; ;Sereal2.c: 843:     INTCONbits.PEIE = 1;
+[e = . . _OSCCONbits 1 1 -> -> 0 `i `uc ]
+"844
+[; ;Sereal2.c: 844:     INTCONbits.GIE = 1;
+[e = . . _OSCCONbits 0 0 -> -> 1 `i `uc ]
+"846
+[; ;Sereal2.c: 846:     MENU ();
+[e = _ANSEL -> -> 0 `i `uc ]
+"847
+[; ;Sereal2.c: 847: 
+[e = _ANSELH -> -> 0 `i `uc ]
+"848
+[; ;Sereal2.c: 848:     while (1)
+[e = _TRISA -> -> 0 `i `uc ]
+"849
+[; ;Sereal2.c: 849:     {
+[e = _TRISB -> -> 0 `i `uc ]
+"851
+[; ;Sereal2.c: 851:     }
+[e = _PORTA -> -> 0 `i `uc ]
+"852
+[; ;Sereal2.c: 852: 
+[e = _PORTB -> -> 0 `i `uc ]
+"855
+[e = . . _TXSTAbits 0 4 -> -> 0 `i `uc ]
+"856
+[e = . . _TXSTAbits 0 2 -> -> 1 `i `uc ]
+"858
+[e = . . _BAUDCTLbits 0 3 -> -> 1 `i `uc ]
+"860
+[e = _SPBRG -> -> 25 `i `uc ]
+"861
+[e = _SPBRGH -> -> 0 `i `uc ]
+"863
+[e = . . _RCSTAbits 0 7 -> -> 1 `i `uc ]
+"864
+[e = . . _RCSTAbits 0 6 -> -> 0 `i `uc ]
+"865
+[e = . . _RCSTAbits 0 4 -> -> 1 `i `uc ]
+"867
+[e = . . _TXSTAbits 0 5 -> -> 1 `i `uc ]
+"870
+[e = . . _PIR1bits 0 5 -> -> 1 `i `uc ]
+"871
+[e = . . _PIE1bits 0 5 -> -> 1 `i `uc ]
+"872
+[e = . . _INTCONbits 0 6 -> -> 1 `i `uc ]
+"873
+[e = . . _INTCONbits 0 7 -> -> 1 `i `uc ]
+"875
+[e ( _MENU ..  ]
+"877
+[e :U 311 ]
+"878
+{
+"880
+}
+[e :U 310 ]
+[e $U 311  ]
+[e :U 312 ]
+"882
+[e :UE 309 ]
+}
